@@ -1,0 +1,13 @@
+{
+  "name": "tw-data-etl",
+  "version": "1.0.0",
+  "description": "Extracts data from TW production db (MongoDB) and loads them into an analytics db (MySQL)",
+  "main": "index.js",
+  "author": "eakl",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.31",
+    "promise-mysql": "^3.0.2"
+  }
+}
